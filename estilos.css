@@ -1,0 +1,141 @@
+body{
+
+    background-color: rgb(196, 243, 235);
+    margin: 50px;
+    padding: 80px;
+    border: solid 40px rgb(0, 204, 255);
+    outline: 5px solid rgb(3, 3, 3);
+    text-align: justify;
+    font-size: 25px;
+
+
+}
+
+.encabezado {
+
+    background-color: rgb(0, 255, 191);
+    text-shadow: 3px 5px 5px gray;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    text-align: center;
+
+}
+
+.encabezado2 {
+
+background-color: rgb(187, 187, 187);
+text-shadow: 3px 5px 5px gray;
+color: rgb(0, 0, 0);
+justify-content: center;
+text-align: center;
+
+}
+
+.descripcion {
+
+    text-align: center;
+    border: 2px solid rgb(6, 6, 77);
+    background-color: #fff;
+    margin: 10px 100px;
+
+}
+
+h3 {
+
+ color: rgb(8, 43, 3);
+ background-color: white;
+
+}
+
+.borde {
+
+display: inline block;
+background: #e3e6e9;
+border: 1px solid rgb(44, 107, 70);
+font-family: monospace;
+
+}
+
+table, td {
+
+border: 2px solid rgb(0, 0, 0); width: 500px; height: 50px;
+background-color: rgb(139, 255, 216);
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+cursor: pointer;
+
+}
+
+th {
+
+background-color: rgb(48, 255, 151);
+color: rgb(0, 0, 0);
+text-align: center;
+
+}
+
+img {
+
+height: auto;
+margin: auto;
+display: block;
+
+}
+
+nav.menu-principal { 
+    background-color: #f77878; /* Fondo oscuro */ 
+    color: white; /* Texto blanco */ 
+    padding: 10px 0; /* Espacio arriba y abajo */ 
+    text-align: center; /* Centrar el menú */ 
+    } 
+    nav.menu-principal li { 
+    display: inline; /* Mostrar los elementos en línea horizontal */ 
+    margin: 0 15px; /* Espacio entre los elementos */ 
+    } 
+    nav.menu-principal a { 
+    color: white; /* Color del texto de los enlaces */ 
+    text-decoration: none; /* Quitar el subrayado */ 
+    font-weight: bold; /* Texto en negrita */ 
+} 
+
+/*scrip de parte q no entiendo*/
+
+#game-container { /* Nuevo contenedor */ 
+    width: 600px; /* Ancho fijo del cuadro */ 
+    height: 400px; /* Alto fijo del cuadro */ 
+    border: 2px solid black; /* Borde visible del cuadro */ 
+    position: relative; /* Importante para posicionar los elementos dentro */ 
+    overflow: hidden; /* Evita que el jugador se salga visualmente */ 
+    margin: 20px auto; /* Centrar el cuadro en la página (opcional) */ 
+    background-color: #f0f0f0;  
+} 
+#player { 
+    position: absolute; 
+    top: 0px; 
+    left: 0px; 
+    width: 75px; 
+    height: 75px; 
+    border-radius: 50%; 
+    background-color: #7953d2; 
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, 
+               rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,  rgba(0, 0, 0, 0.06) 0px 2px 1px, 
+                rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, 
+                rgba(0, 0, 0, 0.09) 0px 16px 8px,   rgba(0, 0, 0, 0.09) 0px 32px 16px; 
+    transition: transform 0.1s ease-in-out; 
+} 
+#enemy { 
+    position: absolute; 
+    top: 300px;  
+    left: 400px;  
+    width: 50px; 
+    height: 50px; 
+    border-radius: 10px; 
+    background-color: #c62828; 
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,  rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, 
+                rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, 
+                rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, 
+                rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; 
+    transition: transform 0.2s ease-in-out; 
+} 
+

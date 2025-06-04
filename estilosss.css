@@ -1,0 +1,100 @@
+body{
+
+    background-color: rgb(155, 155, 155);
+    margin: 50px;
+    padding: 80px;
+    border: solid 40px rgb(2, 82, 102);
+    outline: 5px solid rgb(3, 3, 3);
+    text-align: justify;
+    font-size: 25px;
+
+
+}
+
+.encabezado {
+
+    background-color: rgb(0, 132, 255);
+    text-shadow: 3px 5px 5px rgb(80, 80, 80);
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    text-align: center;
+
+}
+
+.encabezado2 {
+
+background-color: rgb(187, 187, 187);
+text-shadow: 3px 5px 5px gray;
+color: rgb(0, 0, 0);
+justify-content: center;
+text-align: center;
+
+}
+
+.descripcion {
+
+    text-align: center;
+    border: 2px solid rgb(6, 6, 77);
+    background-color: #fff;
+    margin: 10px 100px;
+
+}
+
+h3 {
+
+ color: rgb(8, 43, 3);
+ background-color: white;
+
+}
+
+.borde {
+
+display: inline block;
+background: #e3e6e9;
+border: 1px solid rgb(44, 107, 70);
+font-family: monospace;
+
+}
+
+table, td {
+
+border: 2px solid rgb(0, 0, 0); width: 500px; height: 50px;
+background-color: rgb(62, 113, 255);
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+cursor: pointer;
+
+}
+
+th {
+
+background-color: rgb(48, 255, 151);
+color: rgb(0, 0, 0);
+text-align: center;
+
+}
+
+img {
+
+height: auto;
+margin: auto;
+display: block;
+
+}
+
+nav.menu-principal { 
+    background-color: #f77878; /* Fondo oscuro */ 
+    color: white; /* Texto blanco */ 
+    padding: 10px 0; /* Espacio arriba y abajo */ 
+    text-align: center; /* Centrar el menú */ 
+    } 
+    nav.menu-principal li { 
+    display: inline; /* Mostrar los elementos en línea horizontal */ 
+    margin: 0 15px; /* Espacio entre los elementos */ 
+    } 
+    nav.menu-principal a { 
+    color: white; /* Color del texto de los enlaces */ 
+    text-decoration: none; /* Quitar el subrayado */ 
+    font-weight: bold; /* Texto en negrita */ 
+} 
